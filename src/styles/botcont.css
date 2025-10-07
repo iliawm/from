@@ -1,0 +1,48 @@
+.buttonback {
+  background: transparent;
+  border: none;
+  color: #9699ab;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.buttonback:hover {
+  color: #02295a;
+}
+.botcont{
+    width: 100%;
+    height: 5%;
+    position: fixed;
+    bottom: 0;
+    z-index: 3;
+    box-sizing: 210px;
+    box-shadow: 0 5px 10px 0px grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px ;
+    background-color: #FFFFFF;
+}
+.buttonmob{
+    width: 11%;
+    min-width: 100px;
+    height:80%;
+    min-height: 20px;
+    margin-right: 20px;
+    background-color: hsl(213, 96%, 18%);
+    color: #FFFFFF;
+    border: black;
+    cursor: pointer;
+  margin-bottom: 10px;
+  
+    
+}
+.buttonmob:hover{
+    transform: scale(1.1);
+    opacity: 0.9;
+
+}

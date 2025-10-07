@@ -1,0 +1,27 @@
+@import "./styles/back.css";
+@import "./styles/botcont.css";
+@import "./styles/page3.css";
+
+#root {
+  margin: 0;
+  flex-direction: column;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100vw;
+  height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    min-height: 757px;
+    overflow: hidden;
+  background-color: #EEF5FF;
+  padding: 0;
+  
+}
+body {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  height: fit-content;
+  position: relative;
+}
