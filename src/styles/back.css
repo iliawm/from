@@ -15,7 +15,8 @@
   min-height: 190px;
   background-color: hsl(243, 100%, 62%);
   position: relative;
-  background-image: url(bg-sidebar-mobile.svg);
+  /* point to the public root so built site can find this asset on GitHub Pages */
+  background-image: url('/bg-sidebar-mobile.svg');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
