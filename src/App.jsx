@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter as Rot,Routes,Route } from 'react-router-dom'
+import { HashRouter as Rot,Routes,Route } from 'react-router-dom'
 import Background from './componenets/back'
 import Page3 from './componenets/page3'
 import Page2 from './componenets/Page2'
