@@ -8,12 +8,12 @@
   box-sizing: border-box;
   text-align: center;
   width: 100vw;
-  height: 110vh;
+  height: 130vh;
     display: flex;
     align-items: center;
     justify-content: start;
     min-height: 757px;
-    overflow: hidden;
+    overflow-x: hidden;
   background-color: #EEF5FF;
   padding: 0;
   
